@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: web-ctr
-      image: wubin28/qsk-book:1.0
+      image: wubin28/qsk-book:1.0.ubuntu
       ports:
         - containerPort: 8080
