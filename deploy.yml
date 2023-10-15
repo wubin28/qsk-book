@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: qsk-deploy
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       project: qsk-book
